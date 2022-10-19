@@ -1,3 +1,7 @@
+﻿
+
+::kkk::김대희
+
 
 #ESC::run notepad
 
@@ -95,6 +99,6 @@ F12::     	;
 #h::run, chrome.exe "https://www.notion.so/AutoHotKey-AHK-826171ca23e24cf097efd5e6fb22e6d9"
 #j::run, chrome.exe "https://www.notion.so/cc316468e3fb44559a0d636c31984e12"
 #l::run, chrome.exe "https://www.notion.so/bacbeb09e064493aa7fed844b6691e47" ; 도서관
-#ㅔ::run, chrome.exe "https://www.notion.so/dba33baacaee478e852b34460baa6c21" ; 포교사
+#p::run, chrome.exe "https://www.notion.so/dba33baacaee478e852b34460baa6c21" ; 포교사
 
 #q::run, chrome.exe "https://www.notion.so/LaTeX-4e696da5d7e746279550ebc7b7650be2" ; 암기장
