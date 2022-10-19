@@ -86,3 +86,9 @@ F12::     	;
 		return	; 종료선언
 ;#s::run C:\Users\user\AppData\Local\SourceTree\SourceTree.exe	; 소스트리 실행
 ;		return ;종료선언
+
+;금일 업무
+#a::run, chrome.exe "https://www.notion.so/Today-5d17c1bb00a548fe8853abac55c579b3"
+#f::run, chrome.exe "www.naver.com"
+#h::run, chrome.exe "https://www.notion.so/AutoHotKey-AHK-826171ca23e24cf097efd5e6fb22e6d9"
+#j::run, chrome.exe "https://www.notion.so/cc316468e3fb44559a0d636c31984e12"
