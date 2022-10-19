@@ -92,6 +92,9 @@ F12::     	;
 #v::run "C:\Program Files\Microsoft VS Code\Code.exe" ;비주얼
 		return	; 종료선언
 
+#m::run Code ;비주얼
+		return	; 종료선언
+
 ;#s::run C:\Users\user\AppData\Local\SourceTree\SourceTree.exe	; 소스트리 실행
 ;		return ;종료선언
 
