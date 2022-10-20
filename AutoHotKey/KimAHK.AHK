@@ -102,12 +102,17 @@ F12::     	;
 
 ;금일 업무
 #a::run, chrome.exe "https://www.notion.so/Today-5d17c1bb00a548fe8853abac55c579b3"
+; 도서관
 #b::run, chrome.exe "https://www.notion.so/bacbeb09e064493aa7fed844b6691e47" ; 도서관
+; 도서관
 #c::run, chrome.exe "https://www.notion.so/bacbeb09e064493aa7fed844b6691e47" ; 도서관
 
+;바로가기
 #s::run, chrome.exe "https://www.notion.so/c414eef18a1b401c80fa957ea5aa8888" ; 바로가기
 
+;단축키
 ;#e::run, chrome.exe "https://www.notion.so/keyboard-shortcuts-8a08c009fddc4142997b663625e97d90" ; 단축키
+; 단축키
 #r::run, chrome.exe "https://www.notion.so/keyboard-shortcuts-8a08c009fddc4142997b663625e97d90" ; 단축키
 
 
