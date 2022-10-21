@@ -62,6 +62,15 @@
 !9::     	;
 !0::     	;
 
+
+; 바로가기 노션 페이지
+!a::run, chrome.exe "https://www.notion.so/keyboard-shortcuts-8a08c009fddc4142997b663625e97d90" ; 단축키
+
+
+; 다음 지도
+!g::run, chrome.exe "https://map.kakao.com/"
+
+
 ; -------------------------------------------
 ;  단축키(핫키) 정의  shift (+)
 ; -------------------------------------------
@@ -118,7 +127,7 @@
 ; 바로가기 c
 #s::run, chrome.exe "https://www.notion.so/c414eef18a1b401c80fa957ea5aa8888" ; 바로가기
 
-; 단축키 r
+; 단축키 (r)  이 파일
 ;#e::run, chrome.exe "https://www.notion.so/keyboard-shortcuts-8a08c009fddc4142997b663625e97d90" ; 단축키
 #r::run, chrome.exe "https://www.notion.so/keyboard-shortcuts-8a08c009fddc4142997b663625e97d90" ; 단축키
 
@@ -126,7 +135,11 @@
 ;  네이버 (f)
 #f::run, chrome.exe "www.naver.com"
 
-; 다음 (d)
+; 다음 (#g)  다음지도( !g )
+#g::run, chrome.exe "www.daum.net"
+
+
+
 
 #h::run, chrome.exe "https://www.notion.so/AutoHotKey-AHK-826171ca23e24cf097efd5e6fb22e6d9"
 
