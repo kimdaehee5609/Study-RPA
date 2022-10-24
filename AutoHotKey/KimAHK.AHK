@@ -74,7 +74,11 @@
 	run C:\Users\user\Desktop
 	return
 	; 바탕화면
-!6::     	;
+!6::     	;  오토핫키 폴더 열기
+	run C:\git\Study-RPA\AutoHotKey
+	return
+          ; 바탕화면
+          ;
 !7::     	;
 !8::     	;
 !9::     	;

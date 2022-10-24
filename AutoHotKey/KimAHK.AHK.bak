@@ -70,7 +70,10 @@
 	return
 	   	; 다운로드 열기
   	;
-!5::     	;
+!5::
+	run C:\Users\user\Desktop
+	return
+	; 바탕화면
 !6::     	;
 !7::     	;
 !8::     	;
