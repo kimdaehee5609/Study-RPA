@@ -52,10 +52,24 @@
 ; -------------------------------------------
 ;  단축키(핫키) 정의  alt
 ; -------------------------------------------
-!1::     	;
-!2::     	;
-!3::     	;
-!4::     	;
+!1::
+	run c:\
+	return
+     	;
+!2::
+	run d:\
+	return
+     	;
+    	;
+!3::       ; 깃 폴더 열기
+	run  C:\git
+	return
+	   	; 깃 폴더 열기
+!4::
+	run  C:\Users\user\Downloads
+	return
+	   	; 다운로드 열기
+  	;
 !5::     	;
 !6::     	;
 !7::     	;
@@ -120,7 +134,7 @@
 ;금일 업무 a
 #a::
 run, chrome.exe "https://www.notion.so/Today-5d17c1bb00a548fe8853abac55c579b3"
-msgbox,1,확인창,단축키 금일 업무,
+msgbox,1,확인창,단축키 #a 금일 업무,
 ;msgbox, 단축키 #a 금일 업무
 RETURN
 
