@@ -116,17 +116,20 @@
 ;#s::run C:\Users\user\AppData\Local\SourceTree\SourceTree.exe	; 소스트리 실행
 ;		return ;종료선언
 
+
 ;금일 업무 a
 #a::
 run, chrome.exe "https://www.notion.so/Today-5d17c1bb00a548fe8853abac55c579b3"
-msgbox, 단축키 #a 금일 업무
+msgbox,1,확인창,단축키 #a 금일 업무,
+;msgbox, 단축키 #a 금일 업무
 RETURN
 
 
 ; 도서관 b
 #b::
 run, chrome.exe "https://www.notion.so/bacbeb09e064493aa7fed844b6691e47" ; 도서관
-msgbox, 단축키 #b 도서관
+msgbox,1,확인창,단축키#b 도서관,
+;msgbox, 단축키 #b 도서관
 RETURN
 
 
