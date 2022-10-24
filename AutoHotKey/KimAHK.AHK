@@ -117,13 +117,25 @@
 ;		return ;종료선언
 
 ;금일 업무 a
-#a::run, chrome.exe "https://www.notion.so/Today-5d17c1bb00a548fe8853abac55c579b3"
+#a::
+run, chrome.exe "https://www.notion.so/Today-5d17c1bb00a548fe8853abac55c579b3"
+msgbox, 단축키 #a 금일 업무
+RETURN
+
 
 ; 도서관 b
-#b::run, chrome.exe "https://www.notion.so/bacbeb09e064493aa7fed844b6691e47" ; 도서관
+#b::
+run, chrome.exe "https://www.notion.so/bacbeb09e064493aa7fed844b6691e47" ; 도서관
+msgbox, 단축키 #b 도서관
+RETURN
+
 
 ; 도서관 c
-#c::run, chrome.exe "https://www.notion.so/bacbeb09e064493aa7fed844b6691e47" ; 도서관
+#c::
+run, chrome.exe "https://www.notion.so/bacbeb09e064493aa7fed844b6691e47" ; 도서관
+msgbox, 단축키 #c 도서관
+RETURN
+
 
 ; 바로가기 c
 #s::run, chrome.exe "https://www.notion.so/c414eef18a1b401c80fa957ea5aa8888" ; 바로가기
@@ -145,10 +157,21 @@
 #h::run, chrome.exe "https://www.notion.so/AutoHotKey-AHK-826171ca23e24cf097efd5e6fb22e6d9"
 
 ; 공부  j
-#j::run, chrome.exe "https://www.notion.so/cc316468e3fb44559a0d636c31984e12" ; 공부
+#j::
+run, chrome.exe "https://www.notion.so/cc316468e3fb44559a0d636c31984e12" ; 공부
+msgbox, 단축키 #j 공부
+RETURN
+
 
 ;  도서관  l (엘)
 #l::run, chrome.exe "https://www.notion.so/bacbeb09e064493aa7fed844b6691e47" ; 도서관
+
+; 테스트 (O)
+#O::
+run, chrome.exe "https://www.notion.so/LaTeX-4e696da5d7e746279550ebc7b7650be2" ; 암기장
+msgbox, 단축키 금일 업무
+RETURN
+
 
 ; 포교사 (p)
 #p::run, chrome.exe "https://www.notion.so/dba33baacaee478e852b34460baa6c21" ; 포교사
