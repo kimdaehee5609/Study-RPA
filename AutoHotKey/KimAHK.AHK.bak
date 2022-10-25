@@ -49,37 +49,45 @@
 ^0::     	;
 ^r::Reload     ; 스크립트 다시 로드(핫키 Ctrl+r)
 
-; -------------------------------------------
+; -------------------------------------------알트
 ;  단축키(핫키) 정의  alt
 ; -------------------------------------------
-!1::
+
+!1::     ; c 드라이브
 	run c:\
 	return
-     	;
-!2::
+     	; c 드라이브
+
+!2::     ; d 드라이버
 	run d:\
 	return
-     	;
+     	; d 드라이버
     	;
+
 !3::       ; 깃 폴더 열기
 	run  C:\git
 	return
 	   	; 깃 폴더 열기
-!4::
-	run  C:\Users\user\Downloads
+
+!4::     ; 다운로드 드라이버 열기
+	run  C:\Users\user\다운도르
 	return
 	   	; 다운로드 열기
   	;
-!5::
+
+!5::     ; 바탕화면 열기
 	run C:\Users\user\Desktop
 	return
 	; 바탕화면
+
 !6::     	;  오토핫키 폴더 열기
 	run C:\git\Study-RPA\AutoHotKey
 	return
-          ; 오토핫키
-          ;
-!7::     	;
+
+!7::     	; 문서작업
+	run C:\Users\user\Desktop\문서작업
+	return
+
 !8::     	;
 !9::     	;
 !0::     	;
@@ -105,7 +113,23 @@
 	return
 	; ------------------------------------
 
-; -------------------------------------------
+; ------------------------------------------- 알트 에프키
+!F1::	run, chrome.exe "https://band.us/feed";
+!F2::	run, chrome.exe "https://band.us/band/81828674"	; 해운대 반야선원
+!F3::		;
+!F4::		;
+!F5::		;
+!F6::		;
+!F7::		;
+!F8::		;
+!F9::		;
+!F10::		;
+!F11::		;
+!F12::		;
+
+
+
+; -------------------------------------------  시프트
 ;  단축키(핫키) 정의  shift (+)
 ; -------------------------------------------
 ;+1::     	;
@@ -118,6 +142,19 @@
 ;+8::     	;
 ;+9::     	;
 ;+0::     	;
+
+; 유튜브
++F1:: run, chrome.exe "https://www.youtube.com/"  ; 유튜브
++F2:: run, chrome.exe "https://www.youtube.com/c/삼프로tv" ;
++F3:: run, chrome.exe "https://www.youtube.com/c/TricksOffice" 	; 업무의 잔머리
++F4:: run, chrome.exe "https://www.youtube.com/playlist?list=PL7qq979gQcK166p8Ckgm-B3geos44jMvX"   	; bbs 띵작 몰아보기
++F5:: run, chrome.exe "https://www.youtube.com/results?search_query=면부장"   	;
++F6::     	;
++F7::     	;
++F8::     	;
++F9::     	;
++F10::   	;
+
 
 ; ------------------------------------------- # 윈도우
 ;  단축키(핫키) 정의  window
@@ -132,6 +169,17 @@
 #8::     	;
 #9::     	;
 #0::     	;
+
+; ------------------------- 피그마
+#F3::
+	run chrome.exe "https://www.figma.com/files/recent?fuid=954261146668520084"
+	return ;종료선언
+
+; ------------------------- 카카오톡
+#F4::
+	run "C:\Program Files (x86)\Kakao\KakaoTalk\KakaoTalk.exe"
+	return ;종료선언
+
 
 ; 노트 패드
 #n::run notepad ; 노트패드
@@ -154,23 +202,23 @@
 ;금일 업무 a
 #a::
 	run, chrome.exe "https://www.notion.so/Today-5d17c1bb00a548fe8853abac55c579b3"
-	msgbox,1,확인창,단축키 #a 금일 업무,
-	;msgbox, 단축키 #a 금일 업무
+;	msgbox,1,확인창,단축키 #a 금일 업무,
+;	;msgbox, 단축키 #a 금일 업무
 	RETURN
 
 
 ; 도서관 b
 #b::
-run, chrome.exe "https://www.notion.so/bacbeb09e064493aa7fed844b6691e47" ; 도서관
-msgbox,1,확인창,단축키#b 도서관,
-;msgbox, 단축키 #b 도서관
+	run, chrome.exe "https://www.notion.so/bacbeb09e064493aa7fed844b6691e47" ; 도서관
+; 	msgbox,1,확인창,단축키#b 도서관,
+;	msgbox, 단축키 #b 도서관
 RETURN
 
 
 ; 도서관 c
 #c::
-run, chrome.exe "https://www.notion.so/bacbeb09e064493aa7fed844b6691e47" ; 도서관
-msgbox, 단축키 #c 도서관
+	run, chrome.exe "https://www.notion.so/bacbeb09e064493aa7fed844b6691e47" ; 도서관
+;	msgbox, 단축키 #c 도서관
 RETURN
 
 
