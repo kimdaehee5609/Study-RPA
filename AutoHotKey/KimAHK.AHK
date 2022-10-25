@@ -133,6 +133,12 @@
 #9::     	;
 #0::     	;
 
+; ------------------------- 피그마
+#F3::
+	run chrome.exe "https://www.figma.com/files/recent?fuid=954261146668520084"
+	return ;종료선언
+
+
 ; 노트 패드
 #n::run notepad ; 노트패드
 		return	; 종료선언
