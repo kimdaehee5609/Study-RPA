@@ -89,9 +89,21 @@
 !a::run, chrome.exe "https://www.notion.so/keyboard-shortcuts-8a08c009fddc4142997b663625e97d90" ; 단축키
 
 
-; 다음 지도
+
+; 다음 지도 g
 !g::run, chrome.exe "https://map.kakao.com/"
 
+; 구글 사진
+!h::
+	run, chrome.exe "https://photos.google.com/?tab=rq&pageId=none"
+	return
+	; ------------------------------------
+
+; 구글 사진  식단표
+!j::
+	run, chrome.exe "https://photos.google.com/album/AF1QipPfZtFvRuupG1PH0XCG9TDd1MoADWZaURQJQKz0/photo/AF1QipPNCXS-QvbpNFL5fUIyGLnsDO5F14S_8pcUxc5T"
+	return
+	; ------------------------------------
 
 ; -------------------------------------------
 ;  단축키(핫키) 정의  shift (+)
