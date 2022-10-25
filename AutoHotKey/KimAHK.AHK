@@ -92,10 +92,24 @@
 !9::     	;
 !0::     	;
 
+; ------------------------------------------- 알트 문자 조합
+
 
 ; 바로가기 노션 페이지
 !a::run, chrome.exe "https://www.notion.so/keyboard-shortcuts-8a08c009fddc4142997b663625e97d90" ; 단축키
 
+
+; 구글 드라이브
+!d::
+	run, chrome.exe "https://drive.google.com/drive/u/0/my-drive"
+	return
+	; ------------------------------------
+
+; 구글 드라이브
+!F::
+	run, chrome.exe "https://drive.google.com/drive/u/0/shared-with-me"
+	return
+	; ------------------------------------
 
 
 ; 다음 지도 g
@@ -106,6 +120,13 @@
 	run, chrome.exe "https://photos.google.com/?tab=rq&pageId=none"
 	return
 	; ------------------------------------
+
+; 구글 이메일
+!i::
+	run, chrome.exe "https://mail.google.com/mail"
+	return
+	; ------------------------------------
+
 
 ; 구글 사진  식단표
 !j::
