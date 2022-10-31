@@ -139,7 +139,7 @@
 
 ; 구글 사진  식단표
 !j::
-	run, chrome.exe "https://photos.google.com/album/AF1QipPfZtFvRuupG1PH0XCG9TDd1MoADWZaURQJQKz0/photo/AF1QipPNCXS-QvbpNFL5fUIyGLnsDO5F14S_8pcUxc5T"
+	run, chrome.exe "https://photos.google.com/album/AF1QipPfZtFvRuupG1PH0XCG9TDd1MoADWZaURQJQKz0/photo/AF1QipPkMzxye8XrC_mbJ9y1eKqhtuHalyWTDAMHpBgi"
 	return
 	; ------------------------------------
 
@@ -297,6 +297,7 @@ RETURN
 
 ; 암기장 (q)
 #q::run, chrome.exe "https://www.notion.so/LaTeX-4e696da5d7e746279550ebc7b7650be2" ; 암기장
+
 
 ; ----- ----- ----- -----  메스캐드
 #u::run "C:\Program Files\PTC\Mathcad Prime 3.1\MathcadPrime.exe"
