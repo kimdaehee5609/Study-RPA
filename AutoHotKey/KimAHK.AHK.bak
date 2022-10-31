@@ -33,7 +33,7 @@
 ;F12::     	;
 
 
-; -------------------------------------------
+; -------------------------------------------  컨트롤
 ;  단축키(핫키) 정의  ctrl
 ; -------------------------------------------
 ^1::    	;
@@ -47,6 +47,8 @@
 ^8::     	;
 ^9::     	;
 ^0::     	;
+
+^E::ExitApp		; 오토핫키를 종료합니다
 ^r::Reload     ; 스크립트 다시 로드(핫키 Ctrl+r)
 
 ; -------------------------------------------알트
@@ -99,6 +101,13 @@
 !a::run, chrome.exe "https://www.notion.so/keyboard-shortcuts-8a08c009fddc4142997b663625e97d90" ; 단축키
 
 
+; 구글 캘린더
+!C::
+;	run, chrome.exe "https://calendar.google.com/calendar/u/0/r?tab=rc"
+	run, chrome.exe "https://calendar.google.com/calendar"
+	return
+	; ------------------------------------
+
 ; 구글 드라이브
 !d::
 	run, chrome.exe "https://drive.google.com/drive/u/0/my-drive"
@@ -107,8 +116,7 @@
 
 ; 구글 드라이브
 !F::
-		run, chrome.exe "https://drive.google.com/drive/u/0/shared-with-me"
-	return
+	run, chrome.exe "https://drive.google.com/drive/u/0/shared-with-me"
 	return
 	; ------------------------------------
 
@@ -134,6 +142,9 @@
 	run, chrome.exe "https://photos.google.com/album/AF1QipPfZtFvRuupG1PH0XCG9TDd1MoADWZaURQJQKz0/photo/AF1QipPNCXS-QvbpNFL5fUIyGLnsDO5F14S_8pcUxc5T"
 	return
 	; ------------------------------------
+
+
+
 
 ; ------------------------------------------- 알트 에프키
 !F1::	run, chrome.exe "https://band.us/feed";
@@ -207,9 +218,6 @@
 #n::run notepad ; 노트패드
 		return	; 종료선언
 
-;  비주얼 스튜디오
-#v::run "C:\Program Files\Microsoft VS Code\Code.exe" ;비주얼
-		return	; 종료선언
 
 ;  비주얼 스튜디오
 #m::run Code ;비주얼
@@ -277,11 +285,11 @@ RETURN
 ;  도서관  l (엘)
 #l::run, chrome.exe "https://www.notion.so/bacbeb09e064493aa7fed844b6691e47" ; 도서관
 
-; 테스트 (O)
+; ----------------------------------- 테스트 (O)
 #O::
-run, chrome.exe "https://www.notion.so/LaTeX-4e696da5d7e746279550ebc7b7650be2" ; 암기장
-msgbox, 단축키 금일 업무
-RETURN
+	run, chrome.exe "https://www.notion.so/LaTeX-4e696da5d7e746279550ebc7b7650be2" ; 암기장
+	msgbox, 단축키 금일 업무
+	RETURN
 
 
 ; 포교사 (p)
@@ -290,4 +298,12 @@ RETURN
 ; 암기장 (q)
 #q::run, chrome.exe "https://www.notion.so/LaTeX-4e696da5d7e746279550ebc7b7650be2" ; 암기장
 
+; ----- ----- ----- -----  메스캐드
+#u::run "C:\Program Files\PTC\Mathcad Prime 3.1\MathcadPrime.exe"
+		return	; 종료선언
+
+
+; ----- ----- ----- -----  비주얼 스튜디오
+#v::run "C:\Program Files\Microsoft VS Code\Code.exe" ;비주얼
+		return	; 종료선언
 
