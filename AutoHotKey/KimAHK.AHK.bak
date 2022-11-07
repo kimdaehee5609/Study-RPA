@@ -150,7 +150,7 @@
 !F1::	run, chrome.exe "https://band.us/feed";
 !F2::	run, chrome.exe "https://band.us/band/81828674"	; 해운대 반야선원
 !F3::		;
-!F4::		;
+;!F4::		;  프로그램 종료키와 충돌해서 주석 처리함
 !F5::		;
 !F6::		;
 !F7::		;
