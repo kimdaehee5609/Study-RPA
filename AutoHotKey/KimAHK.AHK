@@ -90,7 +90,9 @@
 	run C:\Users\user\Desktop\문서작업
 	return
 
-!8::     	;
+!8::     	; 암기장
+	run C:\git\memory_sheet
+	return
 !9::     	;
 !0::     	;
 
