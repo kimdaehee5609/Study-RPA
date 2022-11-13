@@ -310,3 +310,11 @@ RETURN
 #v::run "C:\Program Files\Microsoft VS Code\Code.exe" ;비주얼
 		return	; 종료선언
 
+
+
+; typed (x)
+#x::run, chrome.exe "https://typed.do/app/space/72be7c99-66c7-4d1a-a83a-9f9aa88d73f3/home" ; 타입드
+
+; typed (z)
+#z::run, chrome.exe "https://www.notion.so/07cc8f952a564b0f8056c2c75e83b0ea" ; 타입드
+

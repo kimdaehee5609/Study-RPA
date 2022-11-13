@@ -90,7 +90,9 @@
 	run C:\Users\user\Desktop\문서작업
 	return
 
-!8::     	;
+!8::     	; 암기장
+	run C:\git\memory_sheet
+	return
 !9::     	;
 !0::     	;
 
@@ -307,4 +309,8 @@ RETURN
 ; ----- ----- ----- -----  비주얼 스튜디오
 #v::run "C:\Program Files\Microsoft VS Code\Code.exe" ;비주얼
 		return	; 종료선언
+
+
+; typed (z)
+#z::run, chrome.exe "https://www.notion.so/07cc8f952a564b0f8056c2c75e83b0ea" ; 타입드
 
