@@ -158,6 +158,16 @@
 	return
 	; ------------------------------------
 
+; 도서관  : 도서 검색
+!m::
+	run, chrome.exe "https://www.notion.so/6f16b2cfc5e74400af2ac79ba665aea2"
+	return
+	; ------------------------------------
+
+; 도서관  : 교보문고
+!n::
+	run, chrome.exe "https://www.kyobobook.co.kr/"
+	return
 
 
 ; ------------------------------------------- 알트 에프키
