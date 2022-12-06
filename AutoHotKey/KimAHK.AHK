@@ -169,6 +169,10 @@
 	run, chrome.exe "https://www.kyobobook.co.kr/"
 	return
 
+; 깃 폴더
+!t::
+	run C:\git
+	return
 
 ; ------------------------------------------- 알트 에프키
 !F1::	run, chrome.exe "https://band.us/feed";

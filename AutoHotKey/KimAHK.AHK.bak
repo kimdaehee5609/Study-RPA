@@ -164,6 +164,11 @@
 	return
 	; ------------------------------------
 
+; 도서관  : 교보문고
+!n::
+	run, chrome.exe "https://www.kyobobook.co.kr/"
+	return
+
 
 ; ------------------------------------------- 알트 에프키
 !F1::	run, chrome.exe "https://band.us/feed";
