@@ -141,7 +141,7 @@
 
 ; 구글 사진  식단표
 !j::
-	run, chrome.exe "https://photos.google.com/album/AF1QipPfZtFvRuupG1PH0XCG9TDd1MoADWZaURQJQKz0/photo/AF1QipPkMzxye8XrC_mbJ9y1eKqhtuHalyWTDAMHpBgi"
+	run, chrome.exe "https://photos.google.com/album/AF1QipPfZtFvRuupG1PH0XCG9TDd1MoADWZaURQJQKz0/photo/AF1QipNEVn4aa2N33lLrQWCk4VVDE31tmDT2XNOhPZyU"
 	return
 	; ------------------------------------
 
