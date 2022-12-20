@@ -72,7 +72,7 @@
 	   	; 깃 폴더 열기
 
 !4::     ; 다운로드 드라이버 열기
-	run  C:\Users\user\다운도르
+	run  C:\Users\user\Downloads
 	return
 	   	; 다운로드 열기
   	;
@@ -94,6 +94,9 @@
 	run C:\git\memory_sheet
 	return
 !9::     	;
+	run D:\[책]  책읽기
+	return
+
 !0::     	;
 
 ; ------------------------------------------- 알트 문자 조합

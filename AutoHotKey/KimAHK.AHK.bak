@@ -72,7 +72,7 @@
 	   	; 깃 폴더 열기
 
 !4::     ; 다운로드 드라이버 열기
-	run  C:\Users\user\다운도르
+	run  C:\Users\user\Downloads
 	return
 	   	; 다운로드 열기
   	;
@@ -94,6 +94,9 @@
 	run C:\git\memory_sheet
 	return
 !9::     	;
+	run D:\[책] 책읽기
+	return
+
 !0::     	;
 
 ; ------------------------------------------- 알트 문자 조합
@@ -141,7 +144,7 @@
 
 ; 구글 사진  식단표
 !j::
-	run, chrome.exe "https://photos.google.com/album/AF1QipPfZtFvRuupG1PH0XCG9TDd1MoADWZaURQJQKz0/photo/AF1QipPkMzxye8XrC_mbJ9y1eKqhtuHalyWTDAMHpBgi"
+	run, chrome.exe "https://photos.google.com/album/AF1QipPfZtFvRuupG1PH0XCG9TDd1MoADWZaURQJQKz0/photo/AF1QipNEVn4aa2N33lLrQWCk4VVDE31tmDT2XNOhPZyU"
 	return
 	; ------------------------------------
 
