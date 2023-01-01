@@ -199,7 +199,6 @@
 +1::
 	run C:\Users\user\desktop\필사
 	return
-;
 ;+2::     	;
 ;+3::     	;
 ;+4::     	;

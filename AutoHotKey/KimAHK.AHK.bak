@@ -197,11 +197,13 @@
 ;  단축키(핫키) 정의  shift (+)
 ; -------------------------------------------
 +1::
-	run C:\git
 	run C:\Users\user\desktop\필사
 	return
 ;
-;+2::     	;
++2::     	;
+	run Acrobat C:\Users\user\desktop\필사\01
+	return
+
 ;+3::     	;
 ;+4::     	;
 ;+5::     	;
