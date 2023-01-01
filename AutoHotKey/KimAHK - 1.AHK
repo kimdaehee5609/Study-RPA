@@ -197,7 +197,7 @@
 ;  단축키(핫키) 정의  shift (+)
 ; -------------------------------------------
 +1::
-	run C:\Users\h0103\onedrive\desktop\필사
+	run C:\Users\h0103\onedrive\바탕 화면\필사
 	return
 ;
 ;+2::     	;
